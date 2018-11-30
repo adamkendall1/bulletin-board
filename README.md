@@ -30,6 +30,7 @@ MySQL 14.14
 1. Copy all files from this repo into your Apache (or other web server) root directory
 
 2. Make a MySQL databased called "bulletin"
+  
   eg: CREATE DATABASE bulletin;
   
 3. Make a table in the "bulletin" database called "messages" using the following command. (your table must use these fields, or the system will not work. Unless you modify the code to display/add/delete messages)
@@ -44,18 +45,24 @@ MySQL 14.14
    )
   
 4. Make a MySQL user called "bulletin" and give the user full permissions on the "messages" table, and flush the privileges.
+  
   eg: 
+  
   CREATE USER 'bulletin'@'localhost' IDENTIFIED BY 'password';
   GRANT ALL PRIVILEGES ON bulletin.messages TO 'bulletin'@'localhost';
   
   *make sure to change password to a real password
 
 5. Take your newly created password, and enter it into the source code so it can query the database. There are 3 files that you'll need to add your password to:
+  
   -index.php
+  
   -submitNewMessage.php
+  
   -deleteMessage.php
   
   In each of those files there is a line that looks like this:
+  
   $password = "password";
   
   Change the password in quotes to your real password that you created in step 4.
