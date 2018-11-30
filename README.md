@@ -1,6 +1,12 @@
 # Bulletin Board
 
+Here's what the admin panel looks like:
+
 ![alt text](https://github.com/adamkendall1/bulletin-board/blob/master/main-page-example.png?raw=true)
+
+And here's an example of what the bulletin board would look like:
+
+![alt text](https://github.com/adamkendall1/bulletin-board/blob/master/bulletinBoardExample.png)
 
 This is a simple tool that allows users to remotely add messages to a bulletin board, which are then displayed in a common area (eg. a TV in a break room, or on the wall in a walkway, etc.). The messages are added, deleted, and displayed with a web interface. Basically the idea is that you navigate to the bulletinboard.php web page on the display TV, disable sleep mode on the PC, make the browser full screen and just let it run. The messages are displayed on loop, and updated in real time (once per complete loop).
 
