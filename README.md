@@ -79,6 +79,8 @@ You're welcome to use this for any purpose. No need to ask me. Please include an
 
 ## Acknowledgments
 
+A big thanks to Destine Lee for giving helpful tips on the code, and how to protect against SQL injection!
+
 Animations thanks to Justin Aguilar:
  www.justinaguilar.com/animations/
  
